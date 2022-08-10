@@ -12,17 +12,15 @@
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-        if(nums.size()==0) return NULL;
-        if(nums.size()==1)
-        {
-            return new TreeNode(nums[0]);
-        }
-        int mid = nums.size()/2;
-        TreeNode* root = new TreeNode(nums[mid]);
-        vector<int> leftints(nums.begin(), nums.begin()+mid);
-        vector<int> rightints(nums.begin()+mid+1, nums.end());
-        root->left = sortedArrayToBST(leftints);
-        root->right = sortedArrayToBST(rightints);
+        return  binary_Search(nums, 0, nums.size()-1);
+    }
+    TreeNode*  binary_Search(vector<int> &nums, int low, int high) {
+        if(low>high) return NULL;
+        int mid = low + (high -low)/2;
+        TreeNode* root = new TreeNode();
+        root->val = nums[mid];
+        root->left = binary_Search(nums, low, mid -1);
+        root->right = binary_Search(nums, mid+1, high);
         return root;
     }
 };
