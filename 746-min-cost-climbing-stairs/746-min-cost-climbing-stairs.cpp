@@ -13,7 +13,7 @@ public:
 };
 
 /* 
-BOTTOM UP APPROACH:
+TOP DOWN APPROACH:
 int dp[1001];
     int help(int i, vector<int>&C) {
         if(i>=C.size()) return 0;
