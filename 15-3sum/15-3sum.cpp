@@ -21,7 +21,7 @@ public:
             else if(currsum>0) k--;
             else j++;
             }
-            while(i+1<n-2 && nums[i]==nums[i+1]) i++;
+            while(i<n-2 && nums[i]==nums[i+1]) i++;
         }
         return result;
     }
