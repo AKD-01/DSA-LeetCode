@@ -1,24 +1,24 @@
 class Solution {
 public:
     string getHint(string secret, string guess) {
-        int aCnt = 0;
-        int bCnt = 0;
-        vector<int> sVec(10, 0); // 0 ~ 9 for secret
-        vector<int> gVec(10, 0); // 0 ~ 9 for guess 
-        if (secret.size() != guess.size() || secret.empty()) { return "0A0B"; }
-        for (int i = 0; i < secret.size(); ++i) {
-            char c1 = secret[i]; char c2 = guess[i];
-            if (c1 == c2) {
-                ++aCnt; 
-            } else {
-                ++sVec[c1-'0'];
-                ++gVec[c2-'0'];
-            }
-        }
-        // count b 
-        for (int i = 0; i < sVec.size(); ++i) {
-            bCnt += min(sVec[i], gVec[i]);
-        }
-        return to_string(aCnt) + 'A' + to_string(bCnt) + 'B';
+       int bulls=0;
+       int cows=0;
+       vector<int> s(10,0);
+       vector<int> g(10,0);
+        
+       for(int i=0;i<secret.length();i++) {
+           if(secret[i]==guess[i]) bulls++;
+           else {
+               s[secret[i]-'0']++;
+               g[guess[i]-'0']++;
+           }
+       }
+        
+       for(int i=0;i<10;i++) {
+           cows+=min(s[i],g[i]);
+       }
+       string ans="";
+       ans+=to_string(bulls)+"A"+to_string(cows)+"B";
+       return ans;
     }
 };
