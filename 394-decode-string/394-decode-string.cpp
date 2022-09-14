@@ -7,8 +7,7 @@ public:
             else {
                 int n = 0;
                 while (i < s.length() && isdigit(s[i]))
-                    n = n * 10 + s[i++] - '0';
-                    
+                    n = n * 10 + s[i++] - '0';   
                 i++; // '['
                 string t = decodeString(s, i);
                 i++; // ']'
