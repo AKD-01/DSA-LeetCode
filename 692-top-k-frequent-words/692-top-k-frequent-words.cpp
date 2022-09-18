@@ -9,12 +9,12 @@ static bool cmp(pair<string,int> a, pair<string,int> b){
 }
 public: 
     vector<string> topKFrequent(vector<string>& words, int k) {
-    unordered_map<string,int>ump;
+    unordered_map<string,int> mp;
     for(auto it:words) {
-        ump[it]++;
+        mp[it]++;
     }
     vector<pair<string,int>>v;
-    for(auto it:ump) {
+    for(auto it:mp) {
         v.push_back({it.first,it.second});
     }
     sort(v.begin(),v.end(),cmp);
