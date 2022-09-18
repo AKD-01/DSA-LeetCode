@@ -1,31 +1,27 @@
 class Solution {
-public:
-    vector<string> topKFrequent(vector<string>& words, int k) {
-        unordered_map<string, int> hashmap;
-        for(string& word : words) {
-            hashmap[word] += 1;
-        }
-        priority_queue<pair<int, string>, vector<pair<int, string>>, MyComp> pq;
-        for(auto it = hashmap.begin(); it != hashmap.end(); ++it) {
-            pq.push(make_pair(it->second, it->first));
-            if(pq.size() > k) pq.pop();
-        }
-        vector<string> res;
-        while(!pq.empty()) {
-            res.insert(res.begin(), pq.top().second);
-            pq.pop();
-        }
-        return res;
+static bool cmp(pair<string,int> a, pair<string,int> b){
+    if(a.second>b.second)   // greater freq first
+        return true;
+    else if(a.second==b.second){   // if equal then string lower at top
+        return a.first<b.first;
     }
-private:
-    struct MyComp {
-        bool operator() (const pair<int, string>& a, const pair<int, string>& b) {
-            if(a.first != b.first) {
-                return a.first > b.first;
-            }
-            else {
-                return a.second < b.second;
-            }
-        }
-    };
+    return false;
+}
+public: 
+    vector<string> topKFrequent(vector<string>& words, int k) {
+    unordered_map<string,int>ump;
+    for(auto it:words) {
+        ump[it]++;
+    }
+    vector<pair<string,int>>v;
+    for(auto it:ump) {
+        v.push_back({it.first,it.second});
+    }
+    sort(v.begin(),v.end(),cmp);
+    vector<string>ans;
+    for(int i=0;i<k;i++) {
+        ans.push_back(v[i].first);
+    }
+    return ans;
+  }
 };
