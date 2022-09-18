@@ -1,19 +1,23 @@
 class Solution {
 public:
-    vector<int> findOriginalArray(vector<int>& A) {
-         if (A.size() % 2) return {};
-        unordered_map<int, int> c;
-        for (int a : A) c[a]++;
-        vector<int> keys;
-        for (auto it : c)
-            keys.push_back(it.first);
-        sort(keys.begin(), keys.end(), [](int i, int j) {return abs(i) < abs(j);});
-        vector<int> res;
-        for (int x : keys) {
-            if (c[x] > c[2 * x]) return {};
-            for (int i = 0; i < c[x]; ++i, c[2 * x]--)
-                res.push_back(x);
+    vector<int> findOriginalArray(vector<int>& changed) {
+        map<int,int>mp;
+        int n=changed.size();
+        if(n%2==1)return {};
+        for(int i=0;i<n;i++){
+            mp[changed[i]]++;
         }
-        return res;
+        vector<int>ans;
+        sort(changed.begin(),changed.end());
+        for(auto x:changed){
+        if(mp[x]==0) {
+            continue;
+        }
+        if(mp[x*2]==0) return {};
+        ans.push_back(x);
+        mp[x]--;
+        mp[x*2]--;
+        }
+        return ans; 
     }
 };
