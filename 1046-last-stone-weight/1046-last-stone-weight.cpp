@@ -5,7 +5,7 @@ public:
         for(auto weight: stones){
             p.push(weight);
         }
-        while(!p.empty() && p.size()>1){
+        while(p.size()>1){
             int s1 = p.top(); 
             p.pop();
             int s2 = p.top(); 
