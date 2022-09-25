@@ -26,10 +26,10 @@ public:
       return tail==-1;  
     }
     bool isFull() {
-      return !isEmpty() && (tail + 1) % maxSize == head;
+      return !isEmpty() && (tail+1)%maxSize==head;
     }
     private:
-    int maxSize, head = 0, tail = -1;
+    int maxSize, head=0, tail=-1;
     vector<int> data;
 };
  
