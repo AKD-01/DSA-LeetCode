@@ -1,7 +1,7 @@
 class Solution {
 public:
     string multiply(string num1, string num2) {
-        string sum(num1.size() + num2.size(), '0');
+    string sum(num1.size() + num2.size(), '0');
     for (int i = num1.size() - 1; 0 <= i; --i) {
         int carry = 0;
         for (int j = num2.size() - 1; 0 <= j; --j) {
