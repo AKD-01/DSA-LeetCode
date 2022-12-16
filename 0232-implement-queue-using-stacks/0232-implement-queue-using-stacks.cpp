@@ -11,40 +11,42 @@ public:
     }
     
     int pop() {
-        if(!output.empty()) {
+        if(!output.empty()){
             int top=output.top();
             output.pop();
             return top;
         }
         else {
-            while(!input.empty()){
+            while(!input.empty()) {
                 int top=input.top();
                 input.pop();
                 output.push(top);
             }
-            int top=output.top();
+            int front=output.top();
             output.pop();
-            return top;
+            return front;
         }
     }
     
     int peek() {
-        if(!output.empty()){
-            return output.top();
+         if(!output.empty()){
+            int top=output.top();
+            return top;
         }
         else {
-            while(!input.empty()){
+            while(!input.empty()) {
                 int top=input.top();
                 input.pop();
                 output.push(top);
             }
-            return output.top();
+            int front=output.top();
+            return front;
         }
     }
     
     bool empty() {
-        if(output.empty()&&input.empty()) return true;
-        return false;
+        if(input.empty() && output.empty()) return true;
+        else return false;
     }
 };
 
