@@ -1,22 +1,13 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-      unordered_set<int> s;
-      vector<int> result;
-      for(int i=0;i<nums.size();i++){
-          int x=target-nums[i];
-          if(s.find(x)==s.end()) {
-              s.insert(nums[i]);
-          }
-          else {
-              result.push_back(i);
-              auto it=find(nums.begin(), nums.end(), x);
-              int index=it-nums.begin();
-              result.push_back(index);
-              return result;
-          }
-      }
-        return result;
+        int n=nums.size();
+        for(int i=0; i<n; i++) {
+            for(int j=i+1; j<n; j++) {
+                if(nums[i]+nums[j]==target) return {i,j};
+            }
+        }
+        return {-1,-1};
     }
 };
 
@@ -26,7 +17,7 @@ for(int i=0;i<nums.size();i++) {
                 if(nums[i]+nums[j]==target) return {i,j};
             }
         }
-        return {-1,-1};
+        return {-1,-1}; TC: O(n*n) SC: O(1)
         
 unordered_map<int,int> m;
         for(int i=0;i<nums.size();i++) {
@@ -49,4 +40,21 @@ vector<pair<int,int>> v;
            else s++;
        }
         return {-1,-1};
+        
+unordered_set<int> s;
+      vector<int> result;
+      for(int i=0;i<nums.size();i++){
+          int x=target-nums[i];
+          if(s.find(x)==s.end()) {
+              s.insert(nums[i]);
+          }
+          else {
+              result.push_back(i);
+              auto it=find(nums.begin(), nums.end(), x);
+              int index=it-nums.begin();
+              result.push_back(index);
+              return result;
+          }
+      }
+        return result;
 */
