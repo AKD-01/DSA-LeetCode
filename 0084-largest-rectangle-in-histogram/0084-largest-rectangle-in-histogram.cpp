@@ -1,26 +1,23 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& vec) {
-          vector<int> a(vec.size());
-        stack<pair<int, int>> s;
-         
-        // nearest smallest to left;
-        for(int i=0;i<vec.size();i++) {
-            while(s.size() && s.top().first >= vec[i]) s.pop();
-            a[i] = s.empty() ? -1 : s.top().second;
-            s.push({vec[i], i});
+    int largestRectangleArea(vector<int>& heights) {
+          int ret = 0;
+        for (auto it = heights.begin(); it != heights.end(); ++it) {
+            int prev = it != heights.begin() ? *(it - 1) : 0;
+            int target_height = *it;
+            auto end = it + 1;
+            while (target_height > prev) {
+                while (end != heights.end() && *end >= target_height) {
+                    ++end;
+                }
+                ret = max(ret, target_height * (int)(end - it));
+                if (end == heights.end()) {
+                    break;
+                }
+                target_height = *end;
+                ++end;
+            }
         }
-        while(s.size()) s.pop();
-        for(auto i : a) cout<<i<<" ";
-
-        int maxrec = 0;
-        // nearest smallest to right; 
-        for(int i=vec.size()-1;i>=0;i--) {
-            while(s.size() && s.top().first >= vec[i]) s.pop();
-            int j = s.empty() ? vec.size() : s.top().second;
-            maxrec = max((j - a[i] - 1) * vec[i], maxrec);
-            s.push({vec[i], i});
-        }
-        return maxrec;
+        return ret;
     }
 };
