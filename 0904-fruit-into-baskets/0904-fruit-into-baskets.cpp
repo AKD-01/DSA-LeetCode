@@ -1,15 +1,13 @@
 class Solution {
 public:
     int totalFruit(vector<int>& tree) {
-        unordered_map<int, int> count;
-        int i, j;
-        for (i = 0, j = 0; j < tree.size(); ++j) {
-            count[tree[j]]++;
-            if (count.size() > 2) {
-                if (--count[tree[i]] == 0)count.erase(tree[i]);
-                i++;
-            }
+        int res = 0, cur = 0, count_b = 0, a = 0, b = 0;
+        for (int c :  tree) {
+            cur = c == a || c == b ? cur + 1 : count_b + 1;
+            count_b = c == b ? count_b + 1 : 1;
+            if (b != c) a = b, b = c;
+            res = max(res, cur);
         }
-        return j - i;
+        return res;
     }
 };
