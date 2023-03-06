@@ -1,13 +1,16 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int n=nums.size();
-        if(n==0) return 0;
-        int l=0;
-        for(int r=1;r<n;r++) {
-            if(nums[l]!=nums[r]) l++;
-            nums[l]=nums[r];
+        //brute force approach tc-O(nlogn + n) and sc-O(n)
+        set<int> s;
+        for(auto it : nums) {
+            s.insert(it);
         }
-        return l+1;
+        int index=0;
+        for(auto it : s) {
+            nums[index] = it;
+            index++;
+        }
+        return index;
     }
 };
