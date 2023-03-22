@@ -2,24 +2,29 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         int n=nums.size();
-        //moore voting algorithm
-        /*int candidate=0;
+        //Optimal approach using moore's voting algorithm TC-O(n) SC-O(1)
+        int el;
         int count=0;
-        for(int num: nums) {
-            if(count==0) candidate=num;
-            if(num==candidate) count++;
+        for(int i=0; i<n; i++) {
+            if(count==0) {
+                count=1;
+                el=nums[i];
+            }
+            else if(nums[i]==el) count++;
             else count--;
         }
-        return candidate;*/
+        return el;
+        
         //Better approach using hasing - TC-O(nlogn)+O(n) SC-O(n) 
-        map<int,int> m;
+        /*map<int,int> m;
         for(int i=0; i<n; i++) {
             m[nums[i]]++;
         }
         for(auto it: m) {
             if(it.second>n/2) return it.first;
         }
-        return -1;
+        return -1;*/
+        
         //Brute force approach TC-O(n*n) SC-O(1)
         /*for(int i=0; i<n; i++) {
             int count = 0;
