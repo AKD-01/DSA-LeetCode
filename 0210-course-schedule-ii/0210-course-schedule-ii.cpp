@@ -1,42 +1,35 @@
 class Solution {
 public:
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prereq) {
-        int V = numCourses;
-        vector<int>adj[V]; // adjacency list to represent the directed graph
-        // constructing the adjacency list from the given prerequisites
-        for(auto it:prereq){
-            vector<int> x = it;
-            adj[x[1]].push_back(x[0]); // adding directed edge from prerequisite to the course
+    vector<int> findOrder(int n, vector<vector<int>>& prerequisites) {
+        vector<int> adj[n];
+        for(auto it : prerequisites) {
+            adj[it[1]].push_back(it[0]);
         }
-        vector<int>topo; // to store topological order
-        vector<int>indegree(V,0); // to store indegrees of all the vertices
-        // calculating the indegrees of all the vertices
-        for(int i=0;i<V;i++){
-            for(auto it:adj[i]){
-            indegree[it]++;
+        vector<int> indegree(n,0);
+        for(int i=0; i<n; i++) {
+            for(auto it: adj[i]) {
+                indegree[it]++;
             }
         }
-        queue<int>q; // to perform BFS
-        // adding vertices with indegree 0 to the queue
-        for(int i=0;i<V;i++){
-            if(!indegree[i]){
+        queue<int> q;
+        for(int i=0; i<n; i++) {
+            if(indegree[i]==0) {
                 q.push(i);
             }
         }
-        while(!q.empty()){
+        vector<int> topo;
+        while(!q.empty()) {
             int node = q.front();
             q.pop();
-            topo.push_back(node); // adding the node to topological order
-            // reducing the indegree of adjacent vertices and adding them to the queue if their indegree becomes 0
-            for(auto it:adj[node]){
+            topo.push_back(node);
+            for(auto it: adj[node]) {
                 indegree[it]--;
-                if(!indegree[it]){
+                if(indegree[it]==0) {
                     q.push(it);
                 }
             }
         }
-        if(topo.size()==V) // if a valid topological order is found, return it
-            return topo;
-        return {}; // otherwise, return an empty vector
+        if(topo.size()==n) return topo;
+        return {};
     }
 };
