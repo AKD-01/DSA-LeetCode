@@ -4,7 +4,7 @@ class Solution {
         if(index == nums.size()) {
             return 1;
         }
-        int ans = find(index + 1, nums, k, cnt); //don't take nums[index]
+        int ans = find(index + 1, nums, k, cnt); 
         int num = nums[index];
 
         if((num + k > MX_NUM || cnt[num + k] == 0) && (num - k < 1 || cnt[num - k] == 0)) {
