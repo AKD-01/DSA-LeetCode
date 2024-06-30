@@ -1,76 +1,71 @@
-/* You can simply plug in this class any many different codes. This class is a generic implementation of union-find. */
-class UnionFind {
-    vector<int> component;
-    int distinctComponents;
-public:
-    /*
-     *   Initially all 'n' nodes are in different components.
-     *   e.g. component[2] = 2 i.e. node 2 belong to component 2.
-     */
-    UnionFind(int n) {
-	    distinctComponents = n;
-        for (int i=0; i<=n; i++) {
-            component.push_back(i);
-        }
-    }
-    
-    /*
-     *   Returns true when two nodes 'a' and 'b' are initially in different
-     *   components. Otherwise returns false.
-     */
-    bool unite(int a, int b) {       
-        if (findComponent(a) == findComponent(b)) {
-            return false;
-        }
-        component[findComponent(a)] = b;
-        distinctComponents--;
-        return true;
-    }
-    
-    /*
-     *   Returns what component does the node 'a' belong to.
-     */
-    int findComponent(int a) {
-        if (component[a] != a) {
-            component[a] = findComponent(component[a]);
-        }
-        return component[a];
-    }
-    
-    /*
-     *   Are all nodes united into a single component?
-     */
-    bool united() {
-        return distinctComponents == 1;
-    }
-};
-
-class Solution {    
+class Solution {
 public:
     int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
-        // Sort edges by their type such that all type 3 edges will be at the beginning.
-        sort(edges.begin(), edges.end(), [] (vector<int> &a, vector<int> &b) { return a[0] > b[0]; });
+        class UnionFind {
+        public:
+            vector<int> parent, size;
+            int components;
+            UnionFind(int n) {
+                components = n;
+                parent.resize(n + 1);
+                size.resize(n + 1, 1);
+                for (int i = 0; i <= n; ++i) {
+                    parent[i] = i;
+                }
+            }
+
+            int find(int x) {
+                if (parent[x] != x) {
+                    parent[x] = find(parent[x]);
+                }
+                return parent[x];
+            }
+
+            bool unite(int x, int y) {
+                int rootX = find(x), rootY = find(y);
+                if (rootX == rootY) return false;
+                if (size[rootX] < size[rootY]) swap(rootX, rootY);
+                parent[rootY] = rootX;
+                size[rootX] += size[rootY];
+                components--;
+                return true;
+            }
+
+            bool isConnected() {
+                return components == 1;
+            }
+        };
         
-        int edgesAdded = 0; // Stores the number of edges added to the initial empty graph.
+        UnionFind alice(n), bob(n);
+        int edgesRequired = 0;
         
-        UnionFind bob(n), alice(n); // Track whether bob and alice can traverse the entire graph,
-                                    // are there still more than one distinct components, etc.
-        
-        for (auto &edge: edges) { // For each edge -
-            int type = edge[0], one = edge[1], two = edge[2];
-            switch(type) {
-                case 3:
-                    edgesAdded += (bob.unite(one, two) | alice.unite(one, two));
-                    break;
-                case 2:
-                    edgesAdded += bob.unite(one, two);
-                    break;
-                case 1:
-                    edgesAdded += alice.unite(one, two);
-                    break;
+        // Process type 3 edges first
+        for (const auto& edge : edges) {
+            if (edge[0] == 3) {
+                if (alice.unite(edge[1], edge[2]) | bob.unite(edge[1], edge[2])) {
+                    edgesRequired++;
+                }
             }
         }
         
-        return (bob.united() && alice.united()) ? (edges.size()-edgesAdded) : -1; // Yay, solved.
+        // Process type 1 and type 2 edges
+        for (const auto& edge : edges) {
+            if (edge[0] == 1) {
+                if (alice.unite(edge[1], edge[2])) {
+                    edgesRequired++;
+                }
+            } else if (edge[0] == 2) {
+                if (bob.unite(edge[1], edge[2])) {
+                    edgesRequired++;
+                }
+            }
+        }
+        
+        // Check if both are fully connected
+        if (alice.isConnected() && bob.isConnected()) {
+            return edges.size() - edgesRequired;
+        }
+        
+        return -1;
     }
 };
