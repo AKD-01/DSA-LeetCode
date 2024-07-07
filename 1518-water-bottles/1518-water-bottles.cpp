@@ -6,7 +6,7 @@ public:
         {
             if(numBottles - numExchange < 0)
             {
-                ans += curBottles;
+                ans = ans + curBottles;
                 numBottles += curBottles;
                 curBottles = 0;
             }
