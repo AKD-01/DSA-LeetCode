@@ -13,7 +13,7 @@ public:
                 st.push(str[i]);
             }
         }
-        str="";
+        str=" ";
         while(!st.empty()) {
             str += st.top();
               st.pop();
