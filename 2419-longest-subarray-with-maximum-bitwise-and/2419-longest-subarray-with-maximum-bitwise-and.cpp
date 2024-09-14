@@ -21,7 +21,6 @@ public:
                 maxLen = max(maxLen, len);
                 len=0;
             }
-        //    cout<<i<<"->"<<xMax<<", len="<<len<<", maxLen="<<maxLen<<endl;
         }
         return maxLen;
     }
