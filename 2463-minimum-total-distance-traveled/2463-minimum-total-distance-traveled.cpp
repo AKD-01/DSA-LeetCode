@@ -5,7 +5,7 @@ long long dfs(int i, int j, vector<vector<int>>& f, vector<int>& r) {
     if (j >= r.size())
         return 0;
     if (i >= f.size())
-        return 200000000000;
+        return 200000000000L;
     if (dp[i][j] == 0) {
         dp[i][j] = 1 + dfs(i + 1, j, f, r);
         long long dist = 0;
