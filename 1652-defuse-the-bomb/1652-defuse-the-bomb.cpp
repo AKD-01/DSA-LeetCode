@@ -22,18 +22,14 @@ public:
                 for(int j = i - 1; j >= i - -k; j--)
                 {
                     sum += nums[j];
-                    cout<<nums[j]<<" ";
                 }
-                cout<<endl;
             }
             else
             {
                 for(int j = i + 1; j <= i + k; j++)
                 {
                     sum += nums[j];
-                    cout<<nums[j]<<"";
                 }
-                cout<<endl;
             }
             ans[i - n] = sum;
         }
