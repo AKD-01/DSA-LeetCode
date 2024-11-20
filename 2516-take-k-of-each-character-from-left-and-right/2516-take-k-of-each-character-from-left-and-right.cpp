@@ -28,4 +28,4 @@ public:
     if (*min_element(vec.begin(), vec.end()) < k) return -1;
      return solve(s,vec,k,j);
     }
-    };
+};
