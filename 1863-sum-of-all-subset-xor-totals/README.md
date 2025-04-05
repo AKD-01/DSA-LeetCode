@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/">1863. Sum of All Subset XOR Totals</a></h2><h3>Easy</h3><hr><div><p>The <strong>XOR total</strong> of an array is defined as the bitwise <code>XOR</code> of<strong> all its elements</strong>, or <code>0</code> if the array is<strong> empty</strong>.</p>
+<h2><a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/?envType=daily-question&envId=2025-04-05">1863. Sum of All Subset XOR Totals</a></h2><h3>Easy</h3><hr><p>The <strong>XOR total</strong> of an array is defined as the bitwise <code>XOR</code> of<strong> all its elements</strong>, or <code>0</code> if the array is<strong> empty</strong>.</p>
 
 <ul>
 	<li>For example, the <strong>XOR total</strong> of the array <code>[2,5,6]</code> is <code>2 XOR 5 XOR 6 = 1</code>.</li>
@@ -13,7 +13,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,3]
+<pre>
+<strong>Input:</strong> nums = [1,3]
 <strong>Output:</strong> 6
 <strong>Explanation: </strong>The 4 subsets of [1,3] are:
 - The empty subset has an XOR total of 0.
@@ -25,7 +26,8 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [5,1,6]
+<pre>
+<strong>Input:</strong> nums = [5,1,6]
 <strong>Output:</strong> 28
 <strong>Explanation: </strong>The 8 subsets of [5,1,6] are:
 - The empty subset has an XOR total of 0.
@@ -41,7 +43,8 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,4,5,6,7,8]
+<pre>
+<strong>Input:</strong> nums = [3,4,5,6,7,8]
 <strong>Output:</strong> 480
 <strong>Explanation:</strong> The sum of all XOR totals for every subset is 480.
 </pre>
@@ -53,4 +56,3 @@
 	<li><code>1 &lt;= nums.length &lt;= 12</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 20</code></li>
 </ul>
-</div>
