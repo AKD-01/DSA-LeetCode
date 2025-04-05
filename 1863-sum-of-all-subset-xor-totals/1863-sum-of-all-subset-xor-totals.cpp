@@ -1,6 +1,10 @@
 class Solution {
 public:
-    int subsetXORSum(vector<int>& n) {
-        return accumulate(begin(n), end(n), 0, bit_or<int>()) << (n.size() - 1);
+    int subsetXORSum(vector<int>& nums) {
+        int result = 0;
+        for (int num : nums) {
+            result |= num;
+        }
+        return result << (nums.size() - 1);
     }
 };
