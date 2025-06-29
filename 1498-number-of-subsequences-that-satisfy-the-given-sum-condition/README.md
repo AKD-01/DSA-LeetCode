@@ -1,11 +1,12 @@
-<h2><a href="https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/">1498. Number of Subsequences That Satisfy the Given Sum Condition</a></h2><h3>Medium</h3><hr><div><p>You are given an array of integers <code>nums</code> and an integer <code>target</code>.</p>
+<h2><a href="https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition">1498. Number of Subsequences That Satisfy the Given Sum Condition</a></h2><h3>Medium</h3><hr><p>You are given an array of integers <code>nums</code> and an integer <code>target</code>.</p>
 
 <p>Return <em>the number of <strong>non-empty</strong> subsequences of </em><code>nums</code><em> such that the sum of the minimum and maximum element on it is less or equal to </em><code>target</code>. Since the answer may be too large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,5,6,7], target = 9
+<pre>
+<strong>Input:</strong> nums = [3,5,6,7], target = 9
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> There are 4 subsequences that satisfy the condition.
 [3] -&gt; Min value + max value &lt;= target (3 + 3 &lt;= 9)
@@ -16,7 +17,8 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,3,6,8], target = 10
+<pre>
+<strong>Input:</strong> nums = [3,3,6,8], target = 10
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> There are 6 subsequences that satisfy the condition. (nums can have repeated numbers).
 [3] , [3] , [3,3], [3,6] , [3,6] , [3,3,6]
@@ -24,7 +26,8 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [2,3,3,4,6,7], target = 12
+<pre>
+<strong>Input:</strong> nums = [2,3,3,4,6,7], target = 12
 <strong>Output:</strong> 61
 <strong>Explanation:</strong> There are 63 non-empty subsequences, two of them do not satisfy the condition ([6,7], [7]).
 Number of valid subsequences (63 - 2 = 61).
@@ -38,4 +41,3 @@ Number of valid subsequences (63 - 2 = 61).
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 	<li><code>1 &lt;= target &lt;= 10<sup>6</sup></code></li>
 </ul>
-</div>
