@@ -1,18 +1,38 @@
 class Solution {
+
 public:
-    vector<vector<int>> dp;
-int dfs(vector<vector<int>>& e, int i, int k) {
-    if (k == 0 || i >= e.size())
-        return 0;
-    if (dp[i][k] != -1) 
-        return dp[i][k];
-    auto j = upper_bound(begin(e) + i, end(e), e[i][1], 
-        [](int t, const vector<int> &v) {return v[0] > t;}) - begin(e);
-    return dp[i][k] = max(e[i][2] + dfs(e, j, k - 1), dfs(e, i + 1, k));
-}
-int maxValue(vector<vector<int>>& events, int k) {
-    dp = vector<vector<int>>(events.size(), vector<int>(k + 1, -1));
-    sort(begin(events), end(events));
-    return dfs(events, 0, k);
-}
+    int maxValue(vector<vector<int>>& events, int k) {
+
+        int n = events.size();
+        int ans = 0;
+
+        //sort by start time.
+        sort(events.begin(),events.end());
+
+        //dp[i][j] : profit , from event i to end, max attend j event //dp[n][] is sentinel
+        // vector<vector<int>> dp(n+1,vector<int>(k+1,0));
+        //space optimized
+        vector<int> dp(n+1,0) , dp_pre(n+1,0); //dp[n] is sentinel
+
+        //do it once and only once , to find each event next unconflict.
+        vector<int> next_event(n,n); //let default point to sentinel
+
+        auto cmp = [](const vector<int> &cur_event,const vector<int> &event){ 
+            return cur_event[1] < event[0];
+        };
+
+        for(int i=n-2;i>=0;i--) next_event[i] = 
+        distance(events.begin(),upper_bound(events.begin()+i,events.end(),events[i],cmp));
+
+        //update col by col.
+        for(int t = 1;t<=k;t++){
+            for(int i=n-1;i>=0;i--){
+                dp[i] = max(dp[i+1],events[i][2]+dp_pre[next_event[i]]);
+                ans = max(ans,dp[i]);
+            }
+            dp.swap(dp_pre);
+        }
+        
+        return ans;
+    }
 };
