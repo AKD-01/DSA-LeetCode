@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/">2419. Longest Subarray With Maximum Bitwise AND</a></h2><h3>Medium</h3><hr><div><p>You are given an integer array <code>nums</code> of size <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and">2419. Longest Subarray With Maximum Bitwise AND</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code> of size <code>n</code>.</p>
 
 <p>Consider a <strong>non-empty</strong> subarray from <code>nums</code> that has the <strong>maximum</strong> possible <strong>bitwise AND</strong>.</p>
 
@@ -15,7 +15,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,3,3,2,2]
+<pre>
+<strong>Input:</strong> nums = [1,2,3,3,2,2]
 <strong>Output:</strong> 2
 <strong>Explanation:</strong>
 The maximum possible bitwise AND of a subarray is 3.
@@ -24,7 +25,8 @@ The longest subarray with that value is [3,3], so we return 2.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,3,4]
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4]
 <strong>Output:</strong> 1
 <strong>Explanation:</strong>
 The maximum possible bitwise AND of a subarray is 4.
@@ -38,4 +40,3 @@ The longest subarray with that value is [4], so we return 1.
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
-</div>
