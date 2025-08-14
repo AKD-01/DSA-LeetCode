@@ -1,11 +1,11 @@
-<h2><a href="https://leetcode.com/problems/largest-3-same-digit-number-in-string/">2264. Largest 3-Same-Digit Number in String</a></h2><h3>Easy</h3><hr><div><p>You are given a string <code>num</code> representing a large integer. An integer is <strong>good</strong> if it meets the following conditions:</p>
+<h2><a href="https://leetcode.com/problems/largest-3-same-digit-number-in-string">2264. Largest 3-Same-Digit Number in String</a></h2><h3>Easy</h3><hr><p>You are given a string <code>num</code> representing a large integer. An integer is <strong>good</strong> if it meets the following conditions:</p>
 
 <ul>
 	<li>It is a <strong>substring</strong> of <code>num</code> with length <code>3</code>.</li>
 	<li>It consists of only one unique digit.</li>
 </ul>
 
-<p>Return <em>the <strong>maximum good </strong>integer as a <strong>string</strong> or an empty string </em><code>""</code><em> if no such integer exists</em>.</p>
+<p>Return <em>the <strong>maximum good </strong>integer as a <strong>string</strong> or an empty string </em><code>&quot;&quot;</code><em> if no such integer exists</em>.</p>
 
 <p>Note:</p>
 
@@ -17,23 +17,26 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> num = "6<strong><u>777</u></strong>133339"
-<strong>Output:</strong> "777"
-<strong>Explanation:</strong> There are two distinct good integers: "777" and "333".
-"777" is the largest, so we return "777".
+<pre>
+<strong>Input:</strong> num = &quot;6<strong><u>777</u></strong>133339&quot;
+<strong>Output:</strong> &quot;777&quot;
+<strong>Explanation:</strong> There are two distinct good integers: &quot;777&quot; and &quot;333&quot;.
+&quot;777&quot; is the largest, so we return &quot;777&quot;.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> num = "23<strong><u>000</u></strong>19"
-<strong>Output:</strong> "000"
-<strong>Explanation:</strong> "000" is the only good integer.
+<pre>
+<strong>Input:</strong> num = &quot;23<strong><u>000</u></strong>19&quot;
+<strong>Output:</strong> &quot;000&quot;
+<strong>Explanation:</strong> &quot;000&quot; is the only good integer.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> num = "42352338"
-<strong>Output:</strong> ""
+<pre>
+<strong>Input:</strong> num = &quot;42352338&quot;
+<strong>Output:</strong> &quot;&quot;
 <strong>Explanation:</strong> No substring of length 3 consists of only one unique digit. Therefore, there are no good integers.
 </pre>
 
@@ -44,4 +47,3 @@
 	<li><code>3 &lt;= num.length &lt;= 1000</code></li>
 	<li><code>num</code> only consists of digits.</li>
 </ul>
-</div>
