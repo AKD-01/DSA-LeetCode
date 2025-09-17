@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/design-a-food-rating-system/">2353. Design a Food Rating System</a></h2><h3>Medium</h3><hr><div><p>Design a food rating system that can do the following:</p>
+<h2><a href="https://leetcode.com/problems/design-a-food-rating-system/?envType=daily-question&envId=2025-09-17">2353. Design a Food Rating System</a></h2><h3>Medium</h3><hr><p>Design a food rating system that can do the following:</p>
 
 <ul>
 	<li><strong>Modify</strong> the rating of a food item listed in the system.</li>
@@ -25,25 +25,26 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input</strong>
-["FoodRatings", "highestRated", "highestRated", "changeRating", "highestRated", "changeRating", "highestRated"]
-[[["kimchi", "miso", "sushi", "moussaka", "ramen", "bulgogi"], ["korean", "japanese", "japanese", "greek", "japanese", "korean"], [9, 12, 8, 15, 14, 7]], ["korean"], ["japanese"], ["sushi", 16], ["japanese"], ["ramen", 16], ["japanese"]]
+<pre>
+<strong>Input</strong>
+[&quot;FoodRatings&quot;, &quot;highestRated&quot;, &quot;highestRated&quot;, &quot;changeRating&quot;, &quot;highestRated&quot;, &quot;changeRating&quot;, &quot;highestRated&quot;]
+[[[&quot;kimchi&quot;, &quot;miso&quot;, &quot;sushi&quot;, &quot;moussaka&quot;, &quot;ramen&quot;, &quot;bulgogi&quot;], [&quot;korean&quot;, &quot;japanese&quot;, &quot;japanese&quot;, &quot;greek&quot;, &quot;japanese&quot;, &quot;korean&quot;], [9, 12, 8, 15, 14, 7]], [&quot;korean&quot;], [&quot;japanese&quot;], [&quot;sushi&quot;, 16], [&quot;japanese&quot;], [&quot;ramen&quot;, 16], [&quot;japanese&quot;]]
 <strong>Output</strong>
-[null, "kimchi", "ramen", null, "sushi", null, "ramen"]
+[null, &quot;kimchi&quot;, &quot;ramen&quot;, null, &quot;sushi&quot;, null, &quot;ramen&quot;]
 
 <strong>Explanation</strong>
-FoodRatings foodRatings = new FoodRatings(["kimchi", "miso", "sushi", "moussaka", "ramen", "bulgogi"], ["korean", "japanese", "japanese", "greek", "japanese", "korean"], [9, 12, 8, 15, 14, 7]);
-foodRatings.highestRated("korean"); // return "kimchi"
-                                    // "kimchi" is the highest rated korean food with a rating of 9.
-foodRatings.highestRated("japanese"); // return "ramen"
-                                      // "ramen" is the highest rated japanese food with a rating of 14.
-foodRatings.changeRating("sushi", 16); // "sushi" now has a rating of 16.
-foodRatings.highestRated("japanese"); // return "sushi"
-                                      // "sushi" is the highest rated japanese food with a rating of 16.
-foodRatings.changeRating("ramen", 16); // "ramen" now has a rating of 16.
-foodRatings.highestRated("japanese"); // return "ramen"
-                                      // Both "sushi" and "ramen" have a rating of 16.
-                                      // However, "ramen" is lexicographically smaller than "sushi".
+FoodRatings foodRatings = new FoodRatings([&quot;kimchi&quot;, &quot;miso&quot;, &quot;sushi&quot;, &quot;moussaka&quot;, &quot;ramen&quot;, &quot;bulgogi&quot;], [&quot;korean&quot;, &quot;japanese&quot;, &quot;japanese&quot;, &quot;greek&quot;, &quot;japanese&quot;, &quot;korean&quot;], [9, 12, 8, 15, 14, 7]);
+foodRatings.highestRated(&quot;korean&quot;); // return &quot;kimchi&quot;
+                                    // &quot;kimchi&quot; is the highest rated korean food with a rating of 9.
+foodRatings.highestRated(&quot;japanese&quot;); // return &quot;ramen&quot;
+                                      // &quot;ramen&quot; is the highest rated japanese food with a rating of 14.
+foodRatings.changeRating(&quot;sushi&quot;, 16); // &quot;sushi&quot; now has a rating of 16.
+foodRatings.highestRated(&quot;japanese&quot;); // return &quot;sushi&quot;
+                                      // &quot;sushi&quot; is the highest rated japanese food with a rating of 16.
+foodRatings.changeRating(&quot;ramen&quot;, 16); // &quot;ramen&quot; now has a rating of 16.
+foodRatings.highestRated(&quot;japanese&quot;); // return &quot;ramen&quot;
+                                      // Both &quot;sushi&quot; and &quot;ramen&quot; have a rating of 16.
+                                      // However, &quot;ramen&quot; is lexicographically smaller than &quot;sushi&quot;.
 </pre>
 
 <p>&nbsp;</p>
@@ -60,4 +61,3 @@ foodRatings.highestRated("japanese"); // return "ramen"
 	<li><code>cuisine</code> will be a type of cuisine of <strong>at least one</strong> food item in the system across all calls to <code>highestRated</code>.</li>
 	<li>At most <code>2 * 10<sup>4</sup></code> calls <strong>in total</strong> will be made to <code>changeRating</code> and <code>highestRated</code>.</li>
 </ul>
-</div>
