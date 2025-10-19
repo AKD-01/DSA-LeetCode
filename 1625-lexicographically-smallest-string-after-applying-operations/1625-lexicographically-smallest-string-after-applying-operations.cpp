@@ -1,49 +1,29 @@
 class Solution {
 public:
-    string findLexSmallestString(string str, int a, int b) {
-        unordered_set<string> seen; // to keep track of seen strings
-        queue<string> q;
-        q.push(str);
-        
-        string lex_smallest_string = str;
-        
-        while(q.empty() == false) //simple-bfs
-        {
-            string s = q.front();
-            q.pop();
-
-            lex_smallest_string = min(lex_smallest_string , s);
-
-            // Pushing all those childs which are not seen yet!!!
-            // 1st child is formed by applying operation 1 on string
-            // 2nd child is formed by applying operation 2 on string
-
-            string first_child = apply_operation_1(s , a);
-            if(seen.find(first_child) == seen.end())
-                q.push(first_child) , seen.insert(first_child);
-
-            string second_child = apply_operation_2(s , b);
-            if(seen.find(second_child) == seen.end())
-                q.push(second_child) , seen.insert(second_child);
+    string findLexSmallestString(string s, int a, int b) {
+        int n = s.size();
+        vector<int> vis(n);
+        string res = s;
+        // double the length of s for convenience in extracting the rotated
+        // string t
+        s = s + s;
+        for (int i = 0; vis[i] == 0; i = (i + b) % n) {
+            vis[i] = 1;
+            for (int j = 0; j < 10; j++) {
+                int k_limit = b % 2 == 0 ? 0 : 9;
+                for (int k = 0; k <= k_limit; k++) {
+                    // before each accumulation, re-truncate t
+                    string t = s.substr(i, n);
+                    for (int p = 1; p < n; p += 2) {
+                        t[p] = '0' + (t[p] - '0' + j * a) % 10;
+                    }
+                    for (int p = 0; p < n; p += 2) {
+                        t[p] = '0' + (t[p] - '0' + k * a) % 10;
+                    }
+                    res = min(res, t);
+                }
+            }
         }
-        return lex_smallest_string;
-    }
-    
-    string apply_operation_1(string s , int a)
-    {
-    // Operation 1 : states that increasing all odd indices of string a times!!!!
-        for(int i = 1 ; i < s.size() ; i += 2)
-            s[i] = (s[i] - '0' + a) % 10 + '0';
-        return s;
-    }
-    
-    string apply_operation_2(string s , int b)
-    {
-    // Operation 2 : states that we have to rotate string to right b times!!!!!
-        string res(s.size() , ' ');
-        for(int i = 0 ; i < s.size() ; ++i)
-            res[(i + b) % s.size()] = s[i];
         return res;
-
     }
 };
