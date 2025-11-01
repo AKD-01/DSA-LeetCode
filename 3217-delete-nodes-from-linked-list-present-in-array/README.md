@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/">3217. Delete Nodes From Linked List Present in Array</a></h2><h3>Medium</h3><hr><div><p>You are given an array of integers <code>nums</code> and the <code>head</code> of a linked list. Return the <code>head</code> of the modified linked list after <strong>removing</strong> all nodes from the linked list that have a value that exists in <code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array">3217. Delete Nodes From Linked List Present in Array</a></h2><h3>Medium</h3><hr><p>You are given an array of integers <code>nums</code> and the <code>head</code> of a linked list. Return the <code>head</code> of the modified linked list after <strong>removing</strong> all nodes from the linked list that have a value that exists in <code>nums</code>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -10,7 +10,7 @@
 
 <p><strong>Explanation:</strong></p>
 
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample0.png" style="width: 400px; height: 66px;"></strong></p>
+<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample0.png" style="width: 400px; height: 66px;" /></strong></p>
 
 <p>Remove the nodes with values 1, 2, and 3.</p>
 </div>
@@ -24,7 +24,7 @@
 
 <p><strong>Explanation:</strong></p>
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample1.png" style="height: 62px; width: 450px;"></p>
+<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample1.png" style="height: 62px; width: 450px;" /></p>
 
 <p>Remove the nodes with value 1.</p>
 </div>
@@ -38,7 +38,7 @@
 
 <p><strong>Explanation:</strong></p>
 
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample2.png" style="width: 400px; height: 83px;"></strong></p>
+<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample2.png" style="width: 400px; height: 83px;" /></strong></p>
 
 <p>No node has value 5.</p>
 </div>
@@ -54,4 +54,3 @@
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 	<li>The input is generated such that there is at least one node in the linked list that has a value not present in <code>nums</code>.</li>
 </ul>
-</div>
