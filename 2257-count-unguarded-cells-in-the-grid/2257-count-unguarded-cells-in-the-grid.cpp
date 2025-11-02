@@ -1,42 +1,59 @@
 class Solution {
 public:
-    int countUnguarded(int m, int n, vector<vector<int>>& g, vector<vector<int>>& w) {
-        vector<vector<int>> v(m, vector<int> (n,0));
-        int k = w.size();
-        for(int i=0;i<k;i++){
-            int x = w[i][0], y = w[i][1];
-            v[x][y] = -2;
+    const int UNGUARDED = 0;
+    const int GUARDED = 1;
+    const int GUARD = 2;
+    const int WALL = 3;
+
+    void markguarded(int row, int col, vector<vector<int>>& grid) {
+        // Traverse upwards
+        for (int r = row - 1; r >= 0; r--) {
+            if (grid[r][col] == WALL || grid[r][col] == GUARD) break;
+            grid[r][col] = GUARDED;
         }
-        k = g.size();
-        for(int i=0;i<k;i++){
-            int x = g[i][0], y = g[i][1];
-            v[x][y] = 2;
+        // Traverse downwards
+        for (int r = row + 1; r < grid.size(); r++) {
+            if (grid[r][col] == WALL || grid[r][col] == GUARD) break;
+            grid[r][col] = GUARDED;
         }
-        for(int j=0;j<k;j++){
-            int x = g[j][0], y = g[j][1];
-            for(int i=x-1;i>=0;i--){ // up
-                if(v[i][y]==-2 | v[i][y]==2) break;
-                v[i][y] = 1;
-            }
-            for(int i=x+1;i<m;i++){ // down
-                if(v[i][y]==-2 || v[i][y]==2) break;
-                v[i][y] = 1;
-            }
-            for(int i=y-1;i>=0;i--){ // left
-                if(v[x][i]==-2 || v[x][i]==2) break;
-                v[x][i] = 1;
-            }
-            for(int i=y+1;i<n;i++){ // right
-                if(v[x][i]==-2 || v[x][i]==2) break;
-                v[x][i] = 1;
+        // Traverse leftwards
+        for (int c = col - 1; c >= 0; c--) {
+            if (grid[row][c] == WALL || grid[row][c] == GUARD) break;
+            grid[row][c] = GUARDED;
+        }
+        // Traverse rightwards
+        for (int c = col + 1; c < grid[row].size(); c++) {
+            if (grid[row][c] == WALL || grid[row][c] == GUARD) break;
+            grid[row][c] = GUARDED;
+        }
+    }
+
+    int countUnguarded(int m, int n, vector<vector<int>>& guards,
+                       vector<vector<int>>& walls) {
+        vector<vector<int>> grid(m, vector<int>(n, UNGUARDED));
+
+        // Mark guards' positions
+        for (const auto& guard : guards) {
+            grid[guard[0]][guard[1]] = GUARD;
+        }
+
+        // Mark walls' positions
+        for (const auto& wall : walls) {
+            grid[wall[0]][wall[1]] = WALL;
+        }
+
+        // Mark cells as guarded by traversing from each guard
+        for (const auto& guard : guards) {
+            markguarded(guard[0], guard[1], grid);
+        }
+
+        // Count unguarded cells
+        int count = 0;
+        for (const auto& row : grid) {
+            for (const auto& cell : row) {
+                if (cell == UNGUARDED) count++;
             }
         }
-        int ans = 0;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(!v[i][j]) ans++;
-            }
-        }
-        return ans;
+        return count;
     }
 };
