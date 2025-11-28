@@ -1,28 +1,39 @@
 class Solution {
 public:
-    int ans=0;
-    vector<vector<int>>adj;
-    long long int post(int node,int par,int k,vector<int>&val)
-    {
-        long long int sum=0;
-        for(auto it:adj[node])
-        {
-            if(it==par)continue;
-            sum+=post(it,node,k,val);
+    int maxKDivisibleComponents(int n, vector<vector<int>> &edges,
+                                vector<int> &values, int k) {
+        vector<int> adjList[n];
+        for (auto edge : edges) {
+            int node1 = edge[0];
+            int node2 = edge[1];
+            adjList[node1].push_back(node2);
+            adjList[node2].push_back(node1);
         }
-        sum+=val[node];
-        if(sum%k==0)ans++;
-        
-        return sum%k;
+        int componentCount = 0;
+
+        dfs(0, -1, adjList, values, k, componentCount);
+
+        return componentCount;
     }
-    int maxKDivisibleComponents(int n, vector<vector<int>>& edges, vector<int>& values, int k) {
-        adj.resize(n);
-        for(auto it:edges)
-        {
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
+
+private:
+    int dfs(int currentNode, int parentNode, vector<int> adjList[],
+            vector<int> &nodeValues, int k, int &componentCount) {
+        int sum = 0;
+
+        for (auto neighborNode : adjList[currentNode]) {
+            if (neighborNode != parentNode) {
+                sum += dfs(neighborNode, currentNode, adjList, nodeValues, k,
+                           componentCount);
+                sum %= k;  
+            }
         }
-        post(0,-1,k,values);
-        return ans;
+
+        sum += nodeValues[currentNode];
+
+        sum %= k;
+        if (sum == 0) componentCount++;
+
+        return sum;
     }
 };
