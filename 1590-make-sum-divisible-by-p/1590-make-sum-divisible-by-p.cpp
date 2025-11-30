@@ -1,27 +1,25 @@
 class Solution {
 public:
-    typedef long long ll;
     int minSubarray(vector<int>& nums, int p) {
-        int n=nums.size();
-        ll sum=0;
-        for(int x:nums)
-        sum+=x;
-        if(sum%p==0)
-        return 0;
-        ll s=0;
-        ll mini=n;
-        map<ll,ll> m;
-        m[0]=-1;
-        sum%=p;
-        for(int i=0;i<n;i++)
-        {
-           s+=nums[i];
-            s=s%p;
-           if(m.count((s-sum+p)%p))
-            mini=min(mini,i-m[(s-sum+p)%p]);
-            m[s%p]=i;
+        int n = nums.size();
+        long long totalSum =
+            accumulate(nums.begin(), nums.end(), 0LL);   
+        if (totalSum % p == 0) return 0;
+
+        int minLen = n;  
+
+        for (int start = 0; start < n; ++start) {
+            long long subSum = 0;  
+            for (int end = start; end < n; ++end) {
+                subSum += nums[end];  
+                long long remainingSum = (totalSum - subSum) % p;
+
+                if (remainingSum == 0) {
+                    minLen = min(minLen,
+                                 end - start + 1);  
+                }
+            }
         }
-        cout<<mini<<endl;
-        return (mini<n)?mini:-1;
+        return minLen == n ? -1 : minLen;
     }
 };
