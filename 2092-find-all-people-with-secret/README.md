@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-all-people-with-secret/">2092. Find All People With Secret</a></h2><h3>Hard</h3><hr><div><p>You are given an integer <code>n</code> indicating there are <code>n</code> people numbered from <code>0</code> to <code>n - 1</code>. You are also given a <strong>0-indexed</strong> 2D integer array <code>meetings</code> where <code>meetings[i] = [x<sub>i</sub>, y<sub>i</sub>, time<sub>i</sub>]</code> indicates that person <code>x<sub>i</sub></code> and person <code>y<sub>i</sub></code> have a meeting at <code>time<sub>i</sub></code>. A person may attend <strong>multiple meetings</strong> at the same time. Finally, you are given an integer <code>firstPerson</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-all-people-with-secret">2092. Find All People With Secret</a></h2><h3>Hard</h3><hr><p>You are given an integer <code>n</code> indicating there are <code>n</code> people numbered from <code>0</code> to <code>n - 1</code>. You are also given a <strong>0-indexed</strong> 2D integer array <code>meetings</code> where <code>meetings[i] = [x<sub>i</sub>, y<sub>i</sub>, time<sub>i</sub>]</code> indicates that person <code>x<sub>i</sub></code> and person <code>y<sub>i</sub></code> have a meeting at <code>time<sub>i</sub></code>. A person may attend <strong>multiple meetings</strong> at the same time. Finally, you are given an integer <code>firstPerson</code>.</p>
 
 <p>Person <code>0</code> has a <strong>secret</strong> and initially shares the secret with a person <code>firstPerson</code> at time <code>0</code>. This secret is then shared every time a meeting takes place with a person that has the secret. More formally, for every meeting, if a person <code>x<sub>i</sub></code> has the secret at <code>time<sub>i</sub></code>, then they will share the secret with person <code>y<sub>i</sub></code>, and vice versa.</p>
 
@@ -9,7 +9,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> n = 6, meetings = [[1,2,5],[2,3,8],[1,5,10]], firstPerson = 1
+<pre>
+<strong>Input:</strong> n = 6, meetings = [[1,2,5],[2,3,8],[1,5,10]], firstPerson = 1
 <strong>Output:</strong> [0,1,2,3,5]
 <strong>Explanation:
 </strong>At time 0, person 0 shares the secret with person 1.
@@ -21,7 +22,8 @@ Thus, people 0, 1, 2, 3, and 5 know the secret after all the meetings.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> n = 4, meetings = [[3,1,3],[1,2,2],[0,3,3]], firstPerson = 3
+<pre>
+<strong>Input:</strong> n = 4, meetings = [[3,1,3],[1,2,2],[0,3,3]], firstPerson = 3
 <strong>Output:</strong> [0,1,3]
 <strong>Explanation:</strong>
 At time 0, person 0 shares the secret with person 3.
@@ -32,7 +34,8 @@ Thus, people 0, 1, and 3 know the secret after all the meetings.
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> n = 5, meetings = [[3,4,2],[1,2,1],[2,3,1]], firstPerson = 1
+<pre>
+<strong>Input:</strong> n = 5, meetings = [[3,4,2],[1,2,1],[2,3,1]], firstPerson = 1
 <strong>Output:</strong> [0,1,2,3,4]
 <strong>Explanation:</strong>
 At time 0, person 0 shares the secret with person 1.
@@ -54,4 +57,3 @@ Thus, people 0, 1, 2, 3, and 4 know the secret after all the meetings.
 	<li><code>1 &lt;= time<sub>i</sub> &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= firstPerson &lt;= n - 1</code></li>
 </ul>
-</div>
