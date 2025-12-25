@@ -8,7 +8,7 @@ public:
 
         while(k--) {
             happiness[i] = max(happiness[i] - i, 0);
-            res += happiness[i++];
+            res += happiness[i++;
         }
 
         return res;
