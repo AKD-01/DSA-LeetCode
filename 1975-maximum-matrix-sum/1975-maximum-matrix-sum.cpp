@@ -1,18 +1,24 @@
 class Solution {
 public:
     long long maxMatrixSum(vector<vector<int>>& matrix) {
-        long long sum = 0; 
-        int minus = INT_MAX, amt = 0;
-        bool zero = false;
-        for(int i = 0; i < matrix.size(); i++){
-            for(int j = 0; j < matrix[0].size(); j++){
-                int tmp = matrix[i][j];
-                sum += abs(tmp);
-                minus = min(minus, abs(tmp));
-                if(tmp < 0) amt++;
+        long long totalSum = 0;
+        int minAbsVal = INT_MAX;
+        int negativeCount = 0;
+
+        for (auto& row : matrix) {
+            for (int val : row) {
+                totalSum += abs(val);
+                if (val < 0) {
+                    negativeCount++;
+                }
+                minAbsVal = min(minAbsVal, abs(val));
             }
         }
-        if(amt%2) return sum-minus*2;
-        return sum;
+
+        if (negativeCount % 2 != 0) {
+            totalSum -= 2 * minAbsVal;
+        }
+
+        return totalSum;
     }
 };
