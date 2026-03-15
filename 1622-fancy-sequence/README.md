@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/fancy-sequence/">1622. Fancy Sequence</a></h2><h3>Hard</h3><hr><div><p>Write an API that generates fancy sequences using the <code>append</code>, <code>addAll</code>, and <code>multAll</code> operations.</p>
+<h2><a href="https://leetcode.com/problems/fancy-sequence">1622. Fancy Sequence</a></h2><h3>Hard</h3><hr><p>Write an API that generates fancy sequences using the <code>append</code>, <code>addAll</code>, and <code>multAll</code> operations.</p>
 
 <p>Implement the <code>Fancy</code> class:</p>
 
@@ -13,8 +13,9 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input</strong>
-["Fancy", "append", "addAll", "append", "multAll", "getIndex", "addAll", "append", "multAll", "getIndex", "getIndex", "getIndex"]
+<pre>
+<strong>Input</strong>
+[&quot;Fancy&quot;, &quot;append&quot;, &quot;addAll&quot;, &quot;append&quot;, &quot;multAll&quot;, &quot;getIndex&quot;, &quot;addAll&quot;, &quot;append&quot;, &quot;multAll&quot;, &quot;getIndex&quot;, &quot;getIndex&quot;, &quot;getIndex&quot;]
 [[], [2], [3], [7], [2], [0], [3], [10], [2], [0], [1], [2]]
 <strong>Output</strong>
 [null, null, null, null, null, 10, null, null, null, 26, 34, 20]
@@ -42,4 +43,3 @@ fancy.getIndex(2); // return 20
 	<li><code>0 &lt;= idx &lt;= 10<sup>5</sup></code></li>
 	<li>At most <code>10<sup>5</sup></code> calls total will be made to <code>append</code>, <code>addAll</code>, <code>multAll</code>, and <code>getIndex</code>.</li>
 </ul>
-</div>
