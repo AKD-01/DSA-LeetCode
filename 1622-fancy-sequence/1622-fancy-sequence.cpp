@@ -1,48 +1,53 @@
-int mod97 = 1000000007;
-/**
-Calculates multiplicative inverse
-*/
-unsigned long modPow(unsigned long x, int y) {
-        unsigned long tot = 1, p = x;
-        for (; y; y >>= 1) {
-            if (y & 1)
-                tot = (tot * p) % mod97;
-            p = (p * p) % mod97;
-        }
-        return tot;
-    }
 class Fancy {
+private:
+    static constexpr int mod = 1000000007;
+    vector<int> v, a, b;
+
 public:
-    unsigned long seq[100001];
-    unsigned int length = 0;
-    unsigned long increment = 0;
-    unsigned long mult = 1;
     Fancy() {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
+        a.push_back(1);
+        b.push_back(0);
     }
-    
-    void append(int val) {
-        seq[length++] = (((mod97 + val - increment)%mod97) * modPow(mult, mod97-2))%mod97;
-    }
-    void addAll(int inc) {
-        increment = (increment+ inc%mod97)%mod97;
-    }
-    
-    void multAll(int m) {
-        mult = (mult* m%mod97)%mod97;
-        increment = (increment* m%mod97)%mod97;
-    }
-    
-    int getIndex(int idx) {
-        
-        if (idx >= length){
-            return -1;
-        }else{
-            return ((seq[idx] * mult)%mod97+increment)%mod97;
+
+    int quickmul(int x, int y) {
+        int ret = 1;
+        int cur = x;
+        while (y) {
+            if (y & 1) {
+                ret = (long long)ret * cur % mod;
+            }
+            cur = (long long)cur * cur % mod;
+            y >>= 1;
         }
+        return ret;
+    }
+
+    int inv(int x) { return quickmul(x, mod - 2); }
+
+    void append(int val) {
+        v.push_back(val);
+        a.push_back(a.back());
+        b.push_back(b.back());
+    }
+
+    void addAll(int inc) { b.back() = (b.back() + inc) % mod; }
+
+    void multAll(int m) {
+        a.back() = (long long)a.back() * m % mod;
+        b.back() = (long long)b.back() * m % mod;
+    }
+
+    int getIndex(int idx) {
+        if (idx >= v.size()) {
+            return -1;
+        }
+        int ao = (long long)inv(a[idx]) * a.back() % mod;
+        int bo = (b.back() - (long long)b[idx] * ao % mod + mod) % mod;
+        int ans = ((long long)ao * v[idx] % mod + bo) % mod;
+        return ans;
     }
 };
+
 /**
  * Your Fancy object will be instantiated and called as such:
  * Fancy* obj = new Fancy();
