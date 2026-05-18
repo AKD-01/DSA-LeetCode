@@ -1,29 +1,44 @@
+constexpr int N=5e4+1;
+bitset<N> vis;
+int q[N], front=0, back=0;
 class Solution {
 public:
-    int minJumps(vector<int>& arr) {
-        int n = arr.size();
-        unordered_map<int, vector<int>> indicesOfValue;
-        for (int i = 0; i < n; i++)
-            indicesOfValue[arr[i]].push_back(i);
-        vector<bool> visited(n); visited[0] = true;
-        queue<int> q; q.push(0);
-        int step = 0;
-        while (!q.empty()) {
-            for (int size = q.size(); size > 0; --size) {
-                int i = q.front(); q.pop();
-                if (i == n - 1) return step; // Reached to last index
-                vector<int>& next = indicesOfValue[arr[i]];
-                next.push_back(i - 1); next.push_back(i + 1);
-                for (int j : next) {
-                    if (j >= 0 && j < n && !visited[j]) {
-                        visited[j] = true;
-                        q.push(j);
+    static int minJumps(vector<int>& arr) {
+        const int n=arr.size();
+        vis.reset();
+        unordered_map<int, vector<int>> dict;
+        dict.reserve(n);
+        for(int i=0; i<n; i++) 
+            dict[arr[i]].push_back(i);
+
+        front=back=0;
+        q[back++]=0;
+        int step=0;
+        while(front<back)
+        {
+            int s=back-front;
+            while(s--)
+            {
+                int cur=q[front++];
+                if (cur==n-1) return step;
+                if(cur-1>=0 && !vis[cur-1]){
+                    q[back++]=cur-1;
+                    vis[cur-1]=1;
+                }
+                if(cur<=n && !vis[cur+1]){
+                    q[back++]=cur+1;
+                    vis[cur+1]=1;
+                }
+                for(int idx: dict[arr[cur]]){
+                    if (!vis[idx]){
+                        q[back++]=idx;
+                        vis[idx]=1;
                     }
                 }
-                next.clear(); // avoid later lookup indicesOfValue arr[i]
+                dict[arr[cur]].clear();
             }
             step++;
         }
-        return 0;
+        return -1;
     }
 };
