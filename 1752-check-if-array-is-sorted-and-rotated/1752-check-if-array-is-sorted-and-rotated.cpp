@@ -1,12 +1,29 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        //there will be atmost one position that nums[i]>nums[i+1] if array is sorted
-        int count=0;
-        int n=nums.size();
-        for(int i=0;i<n;i++){
-            if(nums[i]>nums[(i+1)%n]) count++; //i+1%n is done to compare the first element with the last element i.e nums[n-1] with nums[0].
+        int n = nums.size();
+        vector<int> checkSorted(n);
+        for (int rotationOffset = 0; rotationOffset < n; ++rotationOffset) {
+            int currIndex = 0;
+            for (int index = rotationOffset; index < n; ++index) {
+                checkSorted[currIndex++] = nums[index];
+            }
+            for (int index = 0; index < rotationOffset; ++index) {
+                checkSorted[currIndex++] = nums[index];
+            }
+
+            bool isSorted = true;
+            for (int index = 0; index < n - 1; ++index) {
+                if (checkSorted[index] > checkSorted[index + 1]) {
+                    isSorted = false;
+                    break;
+                }
+            }
+
+            if (isSorted) {
+                return true;
+            }
         }
-        return count<=1;
+        return false;
     }
 };
