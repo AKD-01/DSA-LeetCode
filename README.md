@@ -20,6 +20,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/AKD-01/DSA-LeetCode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/AKD-01/DSA-LeetCode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/AKD-01/DSA-LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/AKD-01/DSA-LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/AKD-01/DSA-LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/AKD-01/DSA-LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/AKD-01/DSA-LeetCode/tree/main/1861-rotating-the-box/) | Medium |
