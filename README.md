@@ -169,6 +169,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3660-jump-game-ix](https://github.com/AKD-01/DSA-LeetCode/tree/main/3660-jump-game-ix/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/AKD-01/DSA-LeetCode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3742-maximum-path-score-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -261,6 +262,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/AKD-01/DSA-LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/AKD-01/DSA-LeetCode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/AKD-01/DSA-LeetCode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/AKD-01/DSA-LeetCode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/AKD-01/DSA-LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Heap (Priority Queue)
@@ -310,6 +312,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [3546-equal-sum-grid-partition-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
