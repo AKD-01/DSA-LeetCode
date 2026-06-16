@@ -143,6 +143,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3120-count-the-number-of-special-characters-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
+| [3612-process-string-with-special-operations-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/AKD-01/DSA-LeetCode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -160,6 +161,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2161-partition-array-according-to-given-pivot](https://github.com/AKD-01/DSA-LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2751-robot-collisions](https://github.com/AKD-01/DSA-LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AKD-01/DSA-LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3612-process-string-with-special-operations-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/AKD-01/DSA-LeetCode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Dynamic Programming
