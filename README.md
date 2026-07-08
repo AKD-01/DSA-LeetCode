@@ -166,6 +166,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3474-lexicographically-smallest-generated-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3612-process-string-with-special-operations-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/AKD-01/DSA-LeetCode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -268,6 +269,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3699-number-of-zigzag-arrays-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3739-count-subarrays-with-majority-element-ii/) | Hard |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -333,6 +335,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/AKD-01/DSA-LeetCode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/AKD-01/DSA-LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Heap (Priority Queue)
