@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sequential-digits/">1291. Sequential Digits</a></h2><h3>Medium</h3><hr><div><p>An&nbsp;integer has <em>sequential digits</em> if and only if each digit in the number is one more than the previous digit.</p>
+<h2><a href="https://leetcode.com/problems/sequential-digits">1291. Sequential Digits</a></h2><h3>Medium</h3><hr><p>An&nbsp;integer has <em>sequential digits</em> if and only if each digit in the number is one more than the previous digit.</p>
 
 <p>Return a <strong>sorted</strong> list of all the integers&nbsp;in the range <code>[low, high]</code>&nbsp;inclusive that have sequential digits.</p>
 
@@ -16,4 +16,3 @@
 <ul>
 	<li><code>10 &lt;= low &lt;= high &lt;= 10^9</code></li>
 </ul>
-</div>
