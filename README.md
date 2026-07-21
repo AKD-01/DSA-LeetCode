@@ -176,6 +176,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3120-count-the-number-of-special-characters-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
+| [3499-maximize-active-section-with-trade-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 | [3612-process-string-with-special-operations-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
@@ -438,6 +439,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [1291-sequential-digits](https://github.com/AKD-01/DSA-LeetCode/tree/main/1291-sequential-digits/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/AKD-01/DSA-LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+| [3499-maximize-active-section-with-trade-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
