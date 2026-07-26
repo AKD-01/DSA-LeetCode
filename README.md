@@ -11,6 +11,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0033-search-in-rotated-sorted-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0048-rotate-image](https://github.com/AKD-01/DSA-LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/AKD-01/DSA-LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1260-shift-2d-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1288-remove-covered-intervals](https://github.com/AKD-01/DSA-LeetCode/tree/main/1288-remove-covered-intervals/) | Medium |
@@ -355,6 +356,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/AKD-01/DSA-LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/AKD-01/DSA-LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/AKD-01/DSA-LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1622-fancy-sequence](https://github.com/AKD-01/DSA-LeetCode/tree/main/1622-fancy-sequence/) | Hard |
@@ -409,6 +411,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1288-remove-covered-intervals](https://github.com/AKD-01/DSA-LeetCode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1340-jump-game-v](https://github.com/AKD-01/DSA-LeetCode/tree/main/1340-jump-game-v/) | Hard |
