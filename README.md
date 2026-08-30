@@ -49,6 +49,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2029-stone-game-ix](https://github.com/AKD-01/DSA-LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/AKD-01/DSA-LeetCode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2126-destroying-asteroids](https://github.com/AKD-01/DSA-LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AKD-01/DSA-LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2161-partition-array-according-to-given-pivot](https://github.com/AKD-01/DSA-LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
@@ -130,6 +131,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [1927-sum-game](https://github.com/AKD-01/DSA-LeetCode/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/AKD-01/DSA-LeetCode/tree/main/2029-stone-game-ix/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/AKD-01/DSA-LeetCode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2126-destroying-asteroids](https://github.com/AKD-01/DSA-LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AKD-01/DSA-LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/AKD-01/DSA-LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
