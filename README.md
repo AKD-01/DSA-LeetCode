@@ -121,6 +121,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3838-weighted-word-mapping](https://github.com/AKD-01/DSA-LeetCode/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/AKD-01/DSA-LeetCode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
+| [3876-construct-uniform-parity-array-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -472,6 +473,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3783-mirror-distance-of-an-integer](https://github.com/AKD-01/DSA-LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/AKD-01/DSA-LeetCode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
+| [3876-construct-uniform-parity-array-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
