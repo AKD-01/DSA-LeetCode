@@ -12,6 +12,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0048-rotate-image](https://github.com/AKD-01/DSA-LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0835-image-overlap](https://github.com/AKD-01/DSA-LeetCode/tree/main/0835-image-overlap/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/AKD-01/DSA-LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1140-stone-game-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1260-shift-2d-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1260-shift-2d-grid/) | Easy |
@@ -158,6 +159,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/AKD-01/DSA-LeetCode/tree/main/0048-rotate-image/) | Medium |
+| [0835-image-overlap](https://github.com/AKD-01/DSA-LeetCode/tree/main/0835-image-overlap/) | Medium |
 | [1260-shift-2d-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1301-number-of-paths-with-max-score](https://github.com/AKD-01/DSA-LeetCode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
