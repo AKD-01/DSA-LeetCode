@@ -458,6 +458,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0836-rectangle-overlap](https://github.com/AKD-01/DSA-LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
 | [1140-stone-game-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/AKD-01/DSA-LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
+| [1401-circle-and-rectangle-overlapping](https://github.com/AKD-01/DSA-LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1406-stone-game-iii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1406-stone-game-iii/) | Hard |
 | [1510-stone-game-iv](https://github.com/AKD-01/DSA-LeetCode/tree/main/1510-stone-game-iv/) | Hard |
 | [1563-stone-game-v](https://github.com/AKD-01/DSA-LeetCode/tree/main/1563-stone-game-v/) | Hard |
@@ -641,6 +642,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/AKD-01/DSA-LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
+| [1401-circle-and-rectangle-overlapping](https://github.com/AKD-01/DSA-LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/AKD-01/DSA-LeetCode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
