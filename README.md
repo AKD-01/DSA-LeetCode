@@ -59,6 +59,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2161-partition-array-according-to-given-pivot](https://github.com/AKD-01/DSA-LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/AKD-01/DSA-LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/AKD-01/DSA-LeetCode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/AKD-01/DSA-LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/AKD-01/DSA-LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/AKD-01/DSA-LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -181,6 +182,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/AKD-01/DSA-LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1914-cyclically-rotating-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/AKD-01/DSA-LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/AKD-01/DSA-LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2906-construct-product-matrix](https://github.com/AKD-01/DSA-LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
@@ -292,6 +294,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [1871-jump-game-vii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1871-jump-game-vii/) | Medium |
 | [1872-stone-game-viii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/AKD-01/DSA-LeetCode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/AKD-01/DSA-LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/AKD-01/DSA-LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/AKD-01/DSA-LeetCode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/AKD-01/DSA-LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -791,4 +794,5 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/AKD-01/DSA-LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 <!---LeetCode Topics End-->
