@@ -1,28 +1,26 @@
 class Solution {
-    map<pair<int, int>, vector<string>> memo;
-public:
-    vector<string>& helper(int n, int left = 0, int right = 0) {
-        if (left == n && right == n) return memo[{ n, n }];
-        if (auto it = memo.find({ left, right }); it != end(memo)) return it->second;
-        
-        vector<string> result;
-        if (left < n) {
-            auto& res = helper(n, left + 1, right);
-            for (auto& r : res) {
-                result.push_back("(" + r);
-            }
+private:
+    vector<string> sol;
+    void backtrack(string &temp, int open, int close) {
+        if(open == 0 && close == 0){
+            sol.push_back(temp);
+            return;
         }
-        if (right < left) {
-            auto& res = helper(n, left, right + 1);
-            for (auto& r : res) {
-                result.push_back(")" + r);
-            }
+        if(open > 0){
+            temp.push_back('(');
+            backtrack(temp, open - 1, close);
+            temp.pop_back();
         }
-        
-        return memo[{ left, right }] = result;
+        if(close > open){
+            temp.push_back(')');
+            backtrack(temp, open, close - 1);
+            temp.pop_back();
+        }
     }
+public:
     vector<string> generateParenthesis(int n) {
-        memo[{ n, n }] = { "" };
-        return move(helper(n));
+        string str = "";
+        backtrack(str, n, n);
+        return sol;
     }
 };
