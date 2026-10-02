@@ -202,6 +202,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0020-valid-parentheses/) | Easy |
+| [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/AKD-01/DSA-LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0796-rotate-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0796-rotate-string/) | Easy |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/AKD-01/DSA-LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
@@ -281,6 +282,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/AKD-01/DSA-LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [1140-stone-game-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1140-stone-game-ii/) | Medium |
@@ -377,6 +379,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/AKD-01/DSA-LeetCode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -797,6 +800,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0020-valid-parentheses/) | Easy |
+| [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/AKD-01/DSA-LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
