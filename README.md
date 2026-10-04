@@ -136,6 +136,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/AKD-01/DSA-LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/AKD-01/DSA-LeetCode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AKD-01/DSA-LeetCode/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
@@ -205,6 +206,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/AKD-01/DSA-LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0678-valid-parenthesis-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0796-rotate-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0796-rotate-string/) | Easy |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/AKD-01/DSA-LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
@@ -286,6 +288,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
+| [0678-valid-parenthesis-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0788-rotated-digits](https://github.com/AKD-01/DSA-LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [1140-stone-game-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1140-stone-game-ii/) | Medium |
 | [1301-number-of-paths-with-max-score](https://github.com/AKD-01/DSA-LeetCode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
@@ -635,6 +638,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0032-longest-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/AKD-01/DSA-LeetCode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/AKD-01/DSA-LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
@@ -805,6 +809,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0020-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/AKD-01/DSA-LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
