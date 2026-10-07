@@ -206,6 +206,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0020-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0301-remove-invalid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/AKD-01/DSA-LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0796-rotate-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/0796-rotate-string/) | Easy |
@@ -388,6 +389,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/AKD-01/DSA-LeetCode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -696,6 +698,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/AKD-01/DSA-LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1345-jump-game-iv](https://github.com/AKD-01/DSA-LeetCode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
