@@ -60,6 +60,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2196-create-binary-tree-from-descriptions](https://github.com/AKD-01/DSA-LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/AKD-01/DSA-LeetCode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/AKD-01/DSA-LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
+| [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/AKD-01/DSA-LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/AKD-01/DSA-LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -152,6 +153,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2126-destroying-asteroids](https://github.com/AKD-01/DSA-LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AKD-01/DSA-LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/AKD-01/DSA-LeetCode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/AKD-01/DSA-LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
@@ -443,6 +445,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/AKD-01/DSA-LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/AKD-01/DSA-LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/AKD-01/DSA-LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2540-minimum-common-value](https://github.com/AKD-01/DSA-LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/AKD-01/DSA-LeetCode/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
@@ -548,6 +551,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/AKD-01/DSA-LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -587,6 +591,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2126-destroying-asteroids](https://github.com/AKD-01/DSA-LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AKD-01/DSA-LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/AKD-01/DSA-LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/AKD-01/DSA-LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
