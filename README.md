@@ -12,6 +12,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0048-rotate-image](https://github.com/AKD-01/DSA-LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/AKD-01/DSA-LeetCode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0835-image-overlap](https://github.com/AKD-01/DSA-LeetCode/tree/main/0835-image-overlap/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/AKD-01/DSA-LeetCode/tree/main/0874-walking-robot-simulation/) | Medium |
@@ -541,6 +542,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [0048-rotate-image](https://github.com/AKD-01/DSA-LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/AKD-01/DSA-LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/AKD-01/DSA-LeetCode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/AKD-01/DSA-LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [0836-rectangle-overlap](https://github.com/AKD-01/DSA-LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
@@ -629,6 +631,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/AKD-01/DSA-LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1288-remove-covered-intervals](https://github.com/AKD-01/DSA-LeetCode/tree/main/1288-remove-covered-intervals/) | Medium |
