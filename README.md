@@ -50,6 +50,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [1861-rotating-the-box](https://github.com/AKD-01/DSA-LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1872-stone-game-viii](https://github.com/AKD-01/DSA-LeetCode/tree/main/1872-stone-game-viii/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [1882-process-tasks-using-servers](https://github.com/AKD-01/DSA-LeetCode/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/AKD-01/DSA-LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1914-cyclically-rotating-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/AKD-01/DSA-LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
@@ -614,6 +615,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | ------- | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [1882-process-tasks-using-servers](https://github.com/AKD-01/DSA-LeetCode/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
