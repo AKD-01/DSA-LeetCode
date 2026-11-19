@@ -75,6 +75,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2463-minimum-total-distance-traveled](https://github.com/AKD-01/DSA-LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/AKD-01/DSA-LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/AKD-01/DSA-LeetCode/tree/main/2540-minimum-common-value/) | Easy |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/AKD-01/DSA-LeetCode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/AKD-01/DSA-LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/AKD-01/DSA-LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2615-sum-of-distances](https://github.com/AKD-01/DSA-LeetCode/tree/main/2615-sum-of-distances/) | Medium |
@@ -184,6 +185,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AKD-01/DSA-LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/AKD-01/DSA-LeetCode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/AKD-01/DSA-LeetCode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/AKD-01/DSA-LeetCode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/AKD-01/DSA-LeetCode/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
@@ -689,6 +691,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/AKD-01/DSA-LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/AKD-01/DSA-LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/AKD-01/DSA-LeetCode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/AKD-01/DSA-LeetCode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [2747-count-zero-request-servers](https://github.com/AKD-01/DSA-LeetCode/tree/main/2747-count-zero-request-servers/) | Medium |
 | [2751-robot-collisions](https://github.com/AKD-01/DSA-LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
