@@ -336,6 +336,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [2751-robot-collisions](https://github.com/AKD-01/DSA-LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/AKD-01/DSA-LeetCode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3360-stone-removal-game](https://github.com/AKD-01/DSA-LeetCode/tree/main/3360-stone-removal-game/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/AKD-01/DSA-LeetCode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
@@ -610,6 +611,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/AKD-01/DSA-LeetCode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3345-smallest-divisible-digit-product-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
+| [3360-stone-removal-game](https://github.com/AKD-01/DSA-LeetCode/tree/main/3360-stone-removal-game/) | Easy |
 | [3411-maximum-subarray-with-equal-products](https://github.com/AKD-01/DSA-LeetCode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/AKD-01/DSA-LeetCode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AKD-01/DSA-LeetCode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
