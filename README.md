@@ -166,6 +166,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3903-smallest-stable-index-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3934-smallest-unique-subarray](https://github.com/AKD-01/DSA-LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/AKD-01/DSA-LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -206,6 +207,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/AKD-01/DSA-LeetCode/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/AKD-01/DSA-LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/AKD-01/DSA-LeetCode/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -393,6 +395,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/AKD-01/DSA-LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
