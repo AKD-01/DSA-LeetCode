@@ -167,6 +167,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3934-smallest-unique-subarray](https://github.com/AKD-01/DSA-LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/AKD-01/DSA-LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 | [3946-maximum-number-of-items-from-sale-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -208,6 +209,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3727-maximum-alternating-sum-of-squares](https://github.com/AKD-01/DSA-LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/AKD-01/DSA-LeetCode/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
 | [3946-maximum-number-of-items-from-sale-i](https://github.com/AKD-01/DSA-LeetCode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -658,6 +660,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AKD-01/DSA-LeetCode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3620-network-recovery-pathways](https://github.com/AKD-01/DSA-LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3691-maximum-total-subarray-value-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/AKD-01/DSA-LeetCode/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -723,6 +726,7 @@ C++ solutions to over 500 LeetCode problems, perfect for preparing for any codin
 | [3731-find-missing-elements](https://github.com/AKD-01/DSA-LeetCode/tree/main/3731-find-missing-elements/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/AKD-01/DSA-LeetCode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/AKD-01/DSA-LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/AKD-01/DSA-LeetCode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
